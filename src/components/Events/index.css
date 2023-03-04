@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  overflow: auto;
   font-family: 'Roboto';
-  flex-grow: 1;
-  height: auto;
+  max-width: 2500px;
+  height: 100vh;
 }
 
 .firstContainer {
@@ -13,9 +12,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 70vw;
+  width: 70%;
   padding-top: 40px;
   background-color: #3a4b63;
+  flex-grow: 1;
+  overflow-y: auto;
 }
 
 .firstContainerHeading {
